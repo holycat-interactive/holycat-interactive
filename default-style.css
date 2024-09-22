@@ -1,0 +1,253 @@
+
+@font-face 
+{
+    font-family: FredokaOne-Regular;
+    src: url();
+    src: local('FredokaOne-Regular'), url('FredokaOne-Regular.ttf') format("truetype");
+    font-weight: 300;
+}
+
+#appbox:hover
+{
+    height: 110px;
+    box-shadow:
+    0px 2px 0px #cccccc,
+    0px -2px 10px #4fbeff1c,
+    0px 2px 5px #0000021f; 
+}
+
+#appbox-black-holder
+{
+    z-index: 20;
+    position: relative;
+    float: left;
+    height: 100px;
+    width: 0px;
+    margin-top: 20px;
+}
+
+#appbox-black:hover
+{
+    height: 60px;
+    box-shadow:
+    0px 2px 0px #242424,
+    0px -2px 10px #4fbeff1c,
+    0px 2px 5px #0000021f; 
+}
+
+#appbox-black
+{
+    float: none;
+    margin-left: -14px;
+    border-radius: 5px;
+    border: rgba(0, 0, 0, 0.192);
+    border-width: 1px;
+    border-style: solid;
+    height: 50px;
+    width: 30px;
+    box-shadow:
+    0px 10px 0px #242424,
+    0px -10px 10px #4fbeff1c,
+    0px 10px 5px #00000293; 
+    background: #303035;
+}
+
+#appbox
+{
+    margin-top: 20px;
+    margin-left: 4px;
+    float: left;
+    border-radius: 6px;
+    border: rgba(0, 0, 0, 0.192);
+    border-width: 1px;
+    border-style: solid;
+    height: 100px;
+    width: 50px;
+    box-shadow:
+    0px 10px 0px #cccccc,
+    0px -10px 10px #4fbeff1c,
+    0px 10px 5px #00000293; 
+    background: #ffffff;
+}
+
+#bannerHolder
+{
+    position: absolute;
+    top: 40px;
+    width:100%;
+    height: 150px;
+    box-shadow: 0px 0px 3px #0000002c;
+}
+
+#banner
+{
+    margin: 0 auto;
+    width: 580px;
+    height: 150px;
+}
+
+#logo-hc 
+{
+    text-align: left;
+    margin-left: 200px;
+    text-shadow: 
+    1px 1px 0px rgb(255, 207, 207),
+    2px 2px 0px rgb(255, 158, 158);
+    font-size: 100px;
+    display: table;
+    margin: 0 auto;
+}
+
+#logo-int 
+{
+    display: table;
+    margin: 0 auto;
+    margin-top: -20px;
+    margin-left: 200px;
+    margin-right: 0;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.075);
+    font-size: 100px;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+html, body
+{
+
+    min-height: 100%;
+}
+
+body
+{
+    border: none;
+    width: 100%;
+    height: 100%;
+
+    background: linear-gradient(0deg, rgb(134 59 255) 0%, rgb(45 90 255) 100%);
+    -webkit-transition-property: background-image;
+    transition-property: background-image;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    margin: 0;
+
+    color: azure;
+    font-family: 'FredokaOne-Regular';
+}
+
+.itemContent {
+
+    position: absolute;
+    top: 150px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    margin-top: 100px;
+    height: 240px;
+    width: 480px;
+}
+
+.itemHolder {
+    position: relative;
+    float: left;
+    padding: 20px;
+
+    height: 200px;
+    width: 200px;
+
+    margin: 0 auto;
+}
+
+.itemTextBox {
+    position: absolute;
+    top: -30px;
+    height: 30px;
+    width: 190px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.item {
+
+    position: relative;
+    float: left;
+    background: #fff;
+    box-shadow: 0px 14px 40px rgba(34, 35, 58, 0.5);
+
+    border-radius: 25px;
+    height: 323px;
+    width: 190px;
+
+    margin: 0 auto;
+    transition-duration: 0.5s;
+}
+
+.item:hover {
+    text-shadow: 0px 2px 20px rgb(255, 207, 207), 2px 2px 20px rgb(255, 158, 158, 40),  2px 2px 1px rgb(0, 0, 0);
+    box-shadow: 0px 2px 30px rgb(255, 207, 207), 2px 2px 30px rgb(255, 158, 158, 40);
+
+    transform: scale(1.05);
+}
+
+.imageDiv {
+    position: relative;
+    top: 0;
+    height: 190px;
+    width: 190px;
+}
+
+.buttonDiv {
+    margin-top: 10px;
+    position: relative;
+    height: 20px;
+    width: 155px;
+    text-align: center;
+}
+
+img.app
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 170px;
+    width: 170px;
+}
+
+img.googleImage
+{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 170px;
+}
+
+a.button {
+
+    text-shadow:  0px 0px 0px rgb(0, 0, 0);
+    box-shadow: 0px 0px 5px rgba(34, 35, 58, 0.5);
+    padding: 5px 10px;
+    border-radius: 10px;
+    color:rgb(32, 8, 8);
+    text-decoration: none;
+    background: linear-gradient(0deg, rgb(214, 224, 240) 0%, rgb(255, 255, 255) 100%);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
